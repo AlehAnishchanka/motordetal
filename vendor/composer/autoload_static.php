@@ -11,6 +11,10 @@ class ComposerStaticInita352986269ef4c20e6646fa2b26ce22a
     );
 
     public static $prefixLengthsPsr4 = array (
+        'r' => 
+        array (
+            'report\\' => 7,
+        ),
         'Z' => 
         array (
             'ZipStream\\' => 10,
@@ -34,6 +38,10 @@ class ComposerStaticInita352986269ef4c20e6646fa2b26ce22a
     );
 
     public static $prefixDirsPsr4 = array (
+        'report\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/classes',
+        ),
         'ZipStream\\' => 
         array (
             0 => __DIR__ . '/..' . '/maennchen/zipstream-php/src',
@@ -44,8 +52,8 @@ class ComposerStaticInita352986269ef4c20e6646fa2b26ce22a
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
