@@ -3,7 +3,7 @@
 namespace  report;
 use Helper;
 
-class B24Aapi
+class B24Api
 {
 
     CONST WEB_HOOK = 'https://motordetal.bitrix24.ru/rest/2944/3tux3pkmwzqpz1z1/';
@@ -17,7 +17,7 @@ class B24Aapi
 
     protected function SendRequest($method, $arParams)
     {
-        $queryUrl = B24Aapi::WEB_HOOK.$method;
+        $queryUrl = B24Api::WEB_HOOK.$method;
         $queryData = http_build_query($arParams);
         $curl = curl_init();
         curl_setopt_array($curl, array(
