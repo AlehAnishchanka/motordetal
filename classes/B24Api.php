@@ -10,7 +10,7 @@ class B24Api
 
     CONST AR_METHODS = [
         'GET_LIST_STAGES'=>'crm.status.list',
-        'GET_LIST_VACANCY' => 'crm.item.list', // требуется префикс например crm.item.list?entityTypeId=135
+        'GET_LIST_SMART_PROCESS' => 'crm.item.list', // требуется префикс например crm.item.list?entityTypeId=135
         'GET_LIST_USERS' => 'user.get'
     ];
 
