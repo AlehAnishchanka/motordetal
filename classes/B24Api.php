@@ -10,9 +10,8 @@ class B24Api
 
     CONST AR_METHODS = [
         'GET_LIST_STAGES'=>'crm.status.list',
-        //'GET_LIST_DEALS_HISTORY'=>'crm.stagehistory.list',
-        //'GET_LIST_DEALS_STAGE_BY_CATEGORY_ID'=>'crm.dealcategory.stage.list',
-        'GET_LIST_VACANCY' => 'crm.deal.list',
+        'GET_LIST_VACANCY' => 'crm.item.list', // требуется префикс например crm.item.list?entityTypeId=135
+        'GET_LIST_USERS' => 'user.get'
     ];
 
     protected function SendRequest($method, $arParams)
