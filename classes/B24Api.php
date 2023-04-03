@@ -6,7 +6,7 @@ use Helper;
 class B24Api
 {
 
-    CONST WEB_HOOK = 'https://motordetal.bitrix24.ru/rest/2944/3tux3pkmwzqpz1z1/';
+    CONST WEB_HOOK = 'https://motordetal.bitrix24.ru/rest/2944/your_token/';
 
     CONST AR_METHODS = [
         'GET_LIST_STAGES'=>'crm.status.list',
